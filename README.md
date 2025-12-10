@@ -53,7 +53,6 @@ This project automates the retrieval and strict JSON extraction of these technic
 
 The system follows a standard RAG pattern, optimized for parsing and retrieving technical data. The key innovation lies in the **Table-Aware Chunking** step.
 
-
 ### **High-Level Architecture Flow**
 
 | Stage | Process | Key Components |
