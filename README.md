@@ -19,7 +19,6 @@ An AI-Powered Mechanic Assistant for automatic technical-spec retrieval from veh
 * [⚙️ Installation](#%EF%B8%8F-installation)
 * [🔧 Configuration & Best Practices](#-configuration--best-practices)
 * [🔮 Roadmap](#-roadmap)
-* [🤝 Contributing](#-contributing)
 * [📄 Credits](#-credits)
 
 ---
