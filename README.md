@@ -100,7 +100,7 @@ The system is designed to provide precise, structured data output, handling both
   "value": 155,
   "unit": "Nm",
   "source": { "pdf": "sample-service-manual.pdf", "page": 118 }
-}
+}```
 
 
 ## 🔧 Configuration & Best Practices
@@ -115,4 +115,4 @@ To maintain high accuracy and stability:
 **Minimal System Prompt (Illustrative):**
 ```text
 You are an extraction assistant. Given retrieved manual fragments and metadata, output exactly one valid JSON object matching:
-{ "component": string, "spec_type": string, "value": number, "unit": string, "source": {"pdf": string, "page": number} }
+{ "component": string, "spec_type": string, "value": number, "unit": string, "source": {"pdf": string, "page": number} }```
