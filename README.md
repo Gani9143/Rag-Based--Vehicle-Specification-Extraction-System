@@ -81,13 +81,7 @@ We've selected specific parameters to maximize accuracy and determinism for tech
     * **Temperature:** $0.0 - 0.2$ (low to ensure deterministic, numeric output)
     * **`top_p`:** $0.9 - 0.95$
 
-**Metadata Example:** Vectors are tagged with essential source data.
-```json
-{
-  "page": 142,
-  "chunk_id": "c142_3",
-  "source": "sample-service-manual.pdf"
-}
+
 
 ## 🧪 Examples & Expected Outputs
 
