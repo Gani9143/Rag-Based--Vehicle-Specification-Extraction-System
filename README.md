@@ -114,3 +114,14 @@ The system is designed to provide precise, structured data output, handling both
   "unit": "Nm",
   "source": { "pdf": "sample-service-manual.pdf", "page": 118 }
 }
+
+## 🔮 Roadmap
+
+We are actively developing new features to enhance extraction quality and application usability:
+
+* ✅ **Table-aware chunking** — Complete
+* 🚧 **Camelot-first pipeline** (improved table handling) — In Progress
+* **Hybrid Search:** Implementing BM25 + FAISS for better recall — **Planned**
+* **Full Streamlit UI:** A complete, interactive web application — **Planned**
+* **Vision-based Extraction:** Adding support for specs embedded in images/diagrams — **Backlog**
+* **FastAPI Backend:** Creating a scalable API for batch extraction — **Planned**
