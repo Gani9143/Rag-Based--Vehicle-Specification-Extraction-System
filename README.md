@@ -114,8 +114,8 @@ The system is designed to provide precise, structured data output, handling both
   "unit": "Nm",
   "source": { "pdf": "sample-service-manual.pdf", "page": 118 }
 }
-
-## 🔮 Roadmap
+```text
+## 🔮Roadmap
 
 We are actively developing new features to enhance extraction quality and application usability:
 
