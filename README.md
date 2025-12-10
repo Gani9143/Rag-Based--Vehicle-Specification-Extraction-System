@@ -108,6 +108,15 @@ We are actively developing new features to enhance extraction quality and applic
 * **Vision-based Extraction:** Adding support for specs embedded in images/diagrams — **Backlog**
 * **FastAPI Backend:** Creating a scalable API for batch extraction — **Planned**
 
+## ❤️ Credits
+
+This project leverages the power of several outstanding open-source libraries and services:
+
+* **HuggingFace Transformers**
+* **FAISS** (Meta AI)
+* **Sentence Transformers**
+* **LangChain**
+* **Groq Llama 3.3** (model provider)
 ## 🧪 Examples & Expected Outputs
 
 The system is designed to provide precise, structured data output, handling both direct numerical retrieval and complex unit conversion.
