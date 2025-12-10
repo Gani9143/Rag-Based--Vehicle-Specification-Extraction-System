@@ -1,0 +1,452 @@
+[
+    {
+        "component": "Brake disc shield bolts",
+        "spec_type": "Torque",
+        "value": "17",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake disc shield bolts",
+        "spec_type": "Torque",
+        "value": "150",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Brake hose bracket bolt",
+        "spec_type": "Torque",
+        "value": "12",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake hose bracket bolt",
+        "spec_type": "Torque",
+        "value": "106",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Lower arm forward and rearward nuts",
+        "spec_type": "Torque",
+        "value": "350",
+        "unit": "Nm"
+    },
+    {
+        "component": "Lower arm forward and rearward nuts",
+        "spec_type": "Torque",
+        "value": "258",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Lower ball joint nut",
+        "spec_type": "Torque",
+        "value": "175",
+        "unit": "Nm"
+    },
+    {
+        "component": "Lower ball joint nut",
+        "spec_type": "Torque",
+        "value": "129",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Shock absorber lower nuts",
+        "spec_type": "Torque",
+        "value": "90",
+        "unit": "Nm"
+    },
+    {
+        "component": "Shock absorber lower nuts",
+        "spec_type": "Torque",
+        "value": "66",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Shock absorber upper mount nuts",
+        "spec_type": "Torque",
+        "value": "63",
+        "unit": "Nm"
+    },
+    {
+        "component": "Shock absorber upper mount nuts",
+        "spec_type": "Torque",
+        "value": "46",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Shock rod nut",
+        "spec_type": "Torque",
+        "value": "55",
+        "unit": "Nm"
+    },
+    {
+        "component": "Shock rod nut",
+        "spec_type": "Torque",
+        "value": "41",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Stabilizer bar bracket nuts",
+        "spec_type": "Torque",
+        "value": "55",
+        "unit": "Nm"
+    },
+    {
+        "component": "Stabilizer bar bracket nuts",
+        "spec_type": "Torque",
+        "value": "41",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Stabilizer bar link nuts",
+        "spec_type": "Torque",
+        "value": "70",
+        "unit": "Nm"
+    },
+    {
+        "component": "Stabilizer bar link nuts",
+        "spec_type": "Torque",
+        "value": "52",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Tie-rod end nut",
+        "spec_type": "Torque",
+        "value": "115",
+        "unit": "Nm"
+    },
+    {
+        "component": "Tie-rod end nut",
+        "spec_type": "Torque",
+        "value": "85",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Upper arm-to-frame nuts",
+        "spec_type": "Torque",
+        "value": "150",
+        "unit": "Nm"
+    },
+    {
+        "component": "Upper arm-to-frame nuts",
+        "spec_type": "Torque",
+        "value": "111",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Upper ball joint nut",
+        "spec_type": "Torque",
+        "value": "115",
+        "unit": "Nm"
+    },
+    {
+        "component": "Upper ball joint nut",
+        "spec_type": "Torque",
+        "value": "85",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Wheel bearing and wheel hub bolts",
+        "spec_type": "Torque",
+        "value": "175",
+        "unit": "Nm"
+    },
+    {
+        "component": "Wheel bearing and wheel hub bolts",
+        "spec_type": "Torque",
+        "value": "129",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Wheel speed sensor bolt",
+        "spec_type": "Torque",
+        "value": "18",
+        "unit": "Nm"
+    },
+    {
+        "component": "Wheel speed sensor bolt",
+        "spec_type": "Torque",
+        "value": "159",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Wheel speed sensor harness bracket bolt",
+        "spec_type": "Torque",
+        "value": "12",
+        "unit": "Nm"
+    },
+    {
+        "component": "Wheel speed sensor harness bracket bolt",
+        "spec_type": "Torque",
+        "value": "106",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Axle vent valve",
+        "spec_type": "Torque",
+        "value": "18",
+        "unit": "Nm"
+    },
+    {
+        "component": "Axle vent valve",
+        "spec_type": "Torque",
+        "value": "159",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Brake caliper bleeder screw",
+        "spec_type": "Torque",
+        "value": "10",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake caliper bleeder screw",
+        "spec_type": "Torque",
+        "value": "89",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Brake caliper flow bolt",
+        "spec_type": "Torque",
+        "value": "35",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake caliper flow bolt",
+        "spec_type": "Torque",
+        "value": "26",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Brake caliper guide pin bolts",
+        "spec_type": "Torque",
+        "value": "33",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake caliper guide pin bolts",
+        "spec_type": "Torque",
+        "value": "24",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Brake caliper support bracket bolts",
+        "spec_type": "Torque",
+        "value": "150",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake caliper support bracket bolts",
+        "spec_type": "Torque",
+        "value": "111",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Brake flexible hose bracket-to-axle bolt",
+        "spec_type": "Torque",
+        "value": "30",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake flexible hose bracket-to-axle bolt",
+        "spec_type": "Torque",
+        "value": "22",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Brake flexible hose bracket-to-frame bolt",
+        "spec_type": "Torque",
+        "value": "17",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake flexible hose bracket-to-frame bolt",
+        "spec_type": "Torque",
+        "value": "150",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Brake tube fitting",
+        "spec_type": "Torque",
+        "value": "17",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake tube fitting",
+        "spec_type": "Torque",
+        "value": "150",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Brake caliper anchor plate bolts",
+        "spec_type": "Torque",
+        "value": "250",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake caliper anchor plate bolts",
+        "spec_type": "Torque",
+        "value": "184",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Brake caliper flow bolt",
+        "spec_type": "Torque",
+        "value": "35",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake caliper flow bolt",
+        "spec_type": "Torque",
+        "value": "26",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Brake caliper guide pin bolts",
+        "spec_type": "Torque",
+        "value": "37",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake caliper guide pin bolts",
+        "spec_type": "Torque",
+        "value": "27",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Brake disc shield bolts",
+        "spec_type": "Torque",
+        "value": "18",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake disc shield bolts",
+        "spec_type": "Torque",
+        "value": "159",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Brake flexible hose bracket-to-wheel knuckle bolt",
+        "spec_type": "Torque",
+        "value": "30",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake flexible hose bracket-to-wheel knuckle bolt",
+        "spec_type": "Torque",
+        "value": "22",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Brake tube fitting",
+        "spec_type": "Torque",
+        "value": "17",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake tube fitting",
+        "spec_type": "Torque",
+        "value": "150",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Brake booster-to-pedal bracket nuts",
+        "spec_type": "Torque",
+        "value": "",
+        "unit": ""
+    },
+    {
+        "component": "Brake master cylinder nuts",
+        "spec_type": "Torque",
+        "value": "25",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake master cylinder nuts",
+        "spec_type": "Torque",
+        "value": "18",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Brake pedal bracket bolts",
+        "spec_type": "Torque",
+        "value": "25",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake pedal bracket bolts",
+        "spec_type": "Torque",
+        "value": "18",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Brake pedal control switch screw",
+        "spec_type": "Torque",
+        "value": "3",
+        "unit": "Nm"
+    },
+    {
+        "component": "Brake pedal control switch screw",
+        "spec_type": "Torque",
+        "value": "27",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Coolant expansion tank/lower Air Cleaner (ACL) housing assembly bolts",
+        "spec_type": "Torque",
+        "value": "15",
+        "unit": "Nm"
+    },
+    {
+        "component": "Coolant expansion tank/lower Air Cleaner (ACL) housing assembly bolts",
+        "spec_type": "Torque",
+        "value": "133",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Hood switch and bracket nut",
+        "spec_type": "Torque",
+        "value": "6",
+        "unit": "Nm"
+    },
+    {
+        "component": "Hood switch and bracket nut",
+        "spec_type": "Torque",
+        "value": "53",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Primary brake tube fitting",
+        "spec_type": "Torque",
+        "value": "28",
+        "unit": "Nm"
+    },
+    {
+        "component": "Primary brake tube fitting",
+        "spec_type": "Torque",
+        "value": "21",
+        "unit": "lb-ft"
+    },
+    {
+        "component": "Secondary brake tube fitting",
+        "spec_type": "Torque",
+        "value": "20",
+        "unit": "Nm"
+    },
+    {
+        "component": "Secondary brake tube fitting",
+        "spec_type": "Torque",
+        "value": "177",
+        "unit": "lb-in"
+    },
+    {
+        "component": "Brake Fluid",
+        "spec_type": "Fill Capacity",
+        "value": "740",
+        "unit": "ml"
+    },
+    {
+        "component": "Brake Fluid",
+        "spec_type": "Fill Capacity",
+        "value": "1.56",
+        "unit": "pt"
+    }
+]

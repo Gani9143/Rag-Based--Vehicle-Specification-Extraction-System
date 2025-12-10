@@ -1,0 +1,6 @@
+# Ignore the brain (too big for GitHub usually)
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.ipynb_checkpoints/
