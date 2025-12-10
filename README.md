@@ -92,7 +92,7 @@ To maintain high accuracy and stability:
 * **Post-Processing:** Implement the fallback: if the LLM's JSON is invalid, attempt a simple **regex-based numeric and unit extraction** as a safety net.
 
 **Minimal System Prompt (Illustrative):**
-```text
+
 You are an extraction assistant. Given retrieved manual fragments and metadata, output exactly one valid JSON object matching:
 { "component": string, "spec_type": string, "value": number, "unit": string, "source": {"pdf": string, "page": number} }
 
