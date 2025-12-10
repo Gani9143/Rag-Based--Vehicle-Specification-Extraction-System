@@ -82,6 +82,19 @@ We've selected specific parameters to maximize accuracy and determinism for tech
     * **`top_p`:** $0.9 - 0.95$
 
 
+## 🔧 Configuration & Best Practices
+
+To maintain high accuracy and stability:
+
+* **Model & Inference:** Always use deterministic settings (temperature $0.0-0.2$) for structured, numeric outputs. The prompt must include the **JSON Schema** and 2–3 **few-shot examples** of the expected JSON structure.
+* **Retrieval:** For very large corpora, consider more advanced FAISS indices like **HNSW / IVF + PQ** for speed. For small sets, **Flat L2** is optimal.
+* **Chunking:** The biggest impact comes from **Header Injection**. Ensure the header/context of a table is prepended to every row's chunk so each chunk is self-describing.
+* **Post-Processing:** Implement the fallback: if the LLM's JSON is invalid, attempt a simple **regex-based numeric and unit extraction** as a safety net.
+
+**Minimal System Prompt (Illustrative):**
+```text
+You are an extraction assistant. Given retrieved manual fragments and metadata, output exactly one valid JSON object matching:
+{ "component": string, "spec_type": string, "value": number, "unit": string, "source": {"pdf": string, "page": number} }
 
 ## 🧪 Examples & Expected Outputs
 
@@ -100,19 +113,4 @@ The system is designed to provide precise, structured data output, handling both
   "value": 155,
   "unit": "Nm",
   "source": { "pdf": "sample-service-manual.pdf", "page": 118 }
-}```
-
-
-## 🔧 Configuration & Best Practices
-
-To maintain high accuracy and stability:
-
-* **Model & Inference:** Always use deterministic settings (temperature $0.0-0.2$) for structured, numeric outputs. The prompt must include the **JSON Schema** and 2–3 **few-shot examples** of the expected JSON structure.
-* **Retrieval:** For very large corpora, consider more advanced FAISS indices like **HNSW / IVF + PQ** for speed. For small sets, **Flat L2** is optimal.
-* **Chunking:** The biggest impact comes from **Header Injection**. Ensure the header/context of a table is prepended to every row's chunk so each chunk is self-describing.
-* **Post-Processing:** Implement the fallback: if the LLM's JSON is invalid, attempt a simple **regex-based numeric and unit extraction** as a safety net.
-
-**Minimal System Prompt (Illustrative):**
-```text
-You are an extraction assistant. Given retrieved manual fragments and metadata, output exactly one valid JSON object matching:
-{ "component": string, "spec_type": string, "value": number, "unit": string, "source": {"pdf": string, "page": number} }```
+}
