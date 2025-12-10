@@ -88,3 +88,22 @@ We've selected specific parameters to maximize accuracy and determinism for tech
   "chunk_id": "c142_3",
   "source": "sample-service-manual.pdf"
 }
+
+## 🧪 Examples & Expected Outputs
+
+The system is designed to provide precise, structured data output, handling both direct numerical retrieval and complex unit conversion.
+
+### **Example 1: Torque Specification**
+
+**Input:**
+> "What is the torque for the rear suspension arm bolt?"
+
+**Output:**
+```json
+{
+  "component": "Rear Suspension Arm Bolt",
+  "spec_type": "Torque",
+  "value": 155,
+  "unit": "Nm",
+  "source": { "pdf": "sample-service-manual.pdf", "page": 118 }
+}
